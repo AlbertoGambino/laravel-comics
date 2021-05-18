@@ -2,9 +2,7 @@
 
 @section('content')
 
-<div class="jumbotron">
 
-</div>
 
 <div class="card-collector">
 
@@ -12,17 +10,20 @@
         @foreach ($data as $item)
             <div class="card">
 
-                <div class="card-image">
+                <a href="{{ route('elem', $loop -> index)}}">
 
-                    <img src="{{$item['thumb']}}" alt="">
+                    <div class="card-image">
 
-                </div>
-                <div class="card-title">
+                        <img src="{{$item['thumb']}}" alt="">
+
+                    </div>
+                    <div class="card-title">
 
                     {{$item['series']}}
 
-                </div>
+                    </div>
 
+                </a>
 
             </div>
         @endforeach

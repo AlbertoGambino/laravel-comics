@@ -307,6 +307,173 @@
     }
 }
 
+.blu-divider{
+
+    height: 50px;
+    background-color: rgb(3, 120, 230);
+    position: relative;
+    .element-image{
+        position: absolute;
+        left: 400px;
+        bottom: 20px;
+    }
+}
+
+.white-space{
+
+    width: 100%;
+    background-color: white;
+    min-height: 350px;
+    .justify{
+        width: 60%;
+        margin: auto;
+        .comics-content{
+
+            width: 90%;
+            display: flex;
+            padding: 30px;
+
+            .com-title{
+                padding: 20px 0;
+                color: darkblue;
+            }
+            .com-price{
+                background-color: green;
+                width: 100%;
+                padding: 15px;
+                display: flex;
+                margin-bottom: 20px;
+                .available{
+                    display: flex;
+                    justify-content: center;
+
+
+                    .usprice{
+                        color: white;
+                        display: flex;
+                        flex-grow: 1;
+                        padding-right: 30px;
+
+                        .price-span{
+                            color: lightgreen;
+                            padding-right: 10px;
+                        }
+
+
+                    }
+                    .us-available{
+                        color: lightgreen;
+                        padding-left: 200px;
+                        padding-right: 30px;
+                    }
+                    .us-check{
+                        color: white;
+                    }
+                }
+            }
+            .com-description{
+                line-height: 20px;
+            }
+            .comics-advertisment{
+                margin-left: 40px;
+            }
+        }
+    }
+}
+
+.grey-talent{
+    min-height: 350px;
+    width: 100%;
+    background-color: lightgray;
+    .justify{
+        display: flex;
+        width: 60%;
+        margin: auto;
+        padding: 20px;
+        .table-left{
+            width: 45%;
+            margin-right: 40px;
+            .talent{
+                color: darkblue;
+                border-bottom: 1px solid grey;
+                padding: 30px 0;
+
+            }
+            .art-by{
+                border-bottom: 1px solid grey;
+                padding: 10px 0;
+                display: flex;
+                .art{
+                    color: darkblue;
+                    flex-shrink: 0;
+                }
+                .for-art{
+                    color: rgb(3, 120, 230);
+                }
+            }
+            .written-by{
+                border-bottom: 1px solid grey;
+                padding: 10px 0;
+                display: flex;
+                .written{
+                    color: darkblue;
+                    flex-shrink: 0;
+                }
+                .for-written{
+                    color: rgb(3, 120, 230);
+                }
+
+            }
+        }
+        .table-right{
+
+            width: 45%;
+            .specs{
+                color: darkblue;
+                border-bottom: 1px solid grey;
+                padding: 30px 0;
+            }
+            .specs-series{
+                border-bottom: 1px solid grey;
+                padding: 10px 0;
+                display: flex;
+                .series{
+                    color: darkblue;
+                    padding-right: 20px;
+                }
+                .series-name{
+                    color: rgb(3, 120, 230);
+                }
+            }
+            .specs-usprice{
+                border-bottom: 1px solid grey;
+                padding: 10px 0;
+                display: flex;
+                .price{
+                    color: darkblue;
+                    padding-right: 20px;
+                }
+                .real-price{
+                    color: black;
+                }
+            }
+            .specs-sale{
+                border-bottom: 1px solid grey;
+                padding: 10px 0;
+                display: flex;
+                .on-sale{
+                    color: darkblue;
+                    padding-right: 20px;
+                }
+                .sale{
+                    color: black;
+
+                }
+            }
+        }
+    }
+}
+
 
 
 

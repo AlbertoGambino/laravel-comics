@@ -289,3 +289,189 @@
   padding: 5px;
 }
 
+.blu-divider {
+  height: 50px;
+  background-color: #0378e6;
+  position: relative;
+}
+
+.blu-divider .element-image {
+  position: absolute;
+  left: 400px;
+  bottom: 20px;
+}
+
+.white-space {
+  width: 100%;
+  background-color: white;
+  min-height: 350px;
+}
+
+.white-space .justify {
+  width: 60%;
+  margin: auto;
+}
+
+.white-space .justify .comics-content {
+  width: 90%;
+  display: flex;
+  padding: 30px;
+}
+
+.white-space .justify .comics-content .com-title {
+  padding: 20px 0;
+  color: darkblue;
+}
+
+.white-space .justify .comics-content .com-price {
+  background-color: green;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.white-space .justify .comics-content .com-price .available {
+  display: flex;
+  justify-content: center;
+}
+
+.white-space .justify .comics-content .com-price .available .usprice {
+  color: white;
+  display: flex;
+  flex-grow: 1;
+  padding-right: 30px;
+}
+
+.white-space .justify .comics-content .com-price .available .usprice .price-span {
+  color: lightgreen;
+  padding-right: 10px;
+}
+
+.white-space .justify .comics-content .com-price .available .us-available {
+  color: lightgreen;
+  padding-left: 200px;
+  padding-right: 30px;
+}
+
+.white-space .justify .comics-content .com-price .available .us-check {
+  color: white;
+}
+
+.white-space .justify .comics-content .com-description {
+  line-height: 20px;
+}
+
+.white-space .justify .comics-content .comics-advertisment {
+  margin-left: 40px;
+}
+
+.grey-talent {
+  min-height: 350px;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.grey-talent .justify {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+}
+
+.grey-talent .justify .table-left {
+  width: 45%;
+  margin-right: 40px;
+}
+
+.grey-talent .justify .table-left .talent {
+  color: darkblue;
+  border-bottom: 1px solid grey;
+  padding: 30px 0;
+}
+
+.grey-talent .justify .table-left .art-by {
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+  display: flex;
+}
+
+.grey-talent .justify .table-left .art-by .art {
+  color: darkblue;
+  flex-shrink: 0;
+}
+
+.grey-talent .justify .table-left .art-by .for-art {
+  color: #0378e6;
+}
+
+.grey-talent .justify .table-left .written-by {
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+  display: flex;
+}
+
+.grey-talent .justify .table-left .written-by .written {
+  color: darkblue;
+  flex-shrink: 0;
+}
+
+.grey-talent .justify .table-left .written-by .for-written {
+  color: #0378e6;
+}
+
+.grey-talent .justify .table-right {
+  width: 45%;
+}
+
+.grey-talent .justify .table-right .specs {
+  color: darkblue;
+  border-bottom: 1px solid grey;
+  padding: 30px 0;
+}
+
+.grey-talent .justify .table-right .specs-series {
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+  display: flex;
+}
+
+.grey-talent .justify .table-right .specs-series .series {
+  color: darkblue;
+  padding-right: 20px;
+}
+
+.grey-talent .justify .table-right .specs-series .series-name {
+  color: #0378e6;
+}
+
+.grey-talent .justify .table-right .specs-usprice {
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+  display: flex;
+}
+
+.grey-talent .justify .table-right .specs-usprice .price {
+  color: darkblue;
+  padding-right: 20px;
+}
+
+.grey-talent .justify .table-right .specs-usprice .real-price {
+  color: black;
+}
+
+.grey-talent .justify .table-right .specs-sale {
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+  display: flex;
+}
+
+.grey-talent .justify .table-right .specs-sale .on-sale {
+  color: darkblue;
+  padding-right: 20px;
+}
+
+.grey-talent .justify .table-right .specs-sale .sale {
+  color: black;
+}
+
